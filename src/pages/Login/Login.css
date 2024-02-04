@@ -1,0 +1,36 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.lContainer{
+    position:absolute;
+    top:200px;
+    left:550px;
+    right:50px;
+    bottom:50px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+
+}
+.input{
+    width:250px;
+    padding:8px;
+    border:1px solid blue;
+}
+.lButton{
+    padding:8px;
+    color:white;
+    background-color:blueviolet;
+    width:270px;
+    outline:none;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.lButton :disabled{
+    cursor: not-allowed;
+}
